@@ -1,0 +1,22 @@
+{
+  "name": "http-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "task": "node src/app.js",
+    "test": "node_modules/.bin/mocha specs/*.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chai": "^4.2.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "jsdom": "^15.1.1",
+    "mocha": "^7.0.1",
+    "path": "^0.12.7",
+    "wget-improved": "^3.0.2"
+  }
+}
